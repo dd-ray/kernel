@@ -181,6 +181,7 @@ jobs:
           kernel_config: ${{ inputs.kernel_config }}
           compress_format: ${{ inputs.compress_format }}
           silent_log: true
+          auto_patch: true
 
       - name: Upload Kernel to Release
         uses: ncipollo/release-action@main
