@@ -5,15 +5,15 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 ===================================================================
 diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchip/Makefile
 --- a/arch/arm64/boot/dts/rockchip/Makefile	(revision b00d3506da4a4b818cbb25ec28e0039531a28aa9)
-+++ b/arch/arm64/boot/dts/rockchip/Makefile	(date 1749439693700)
-@@ -113,6 +113,7 @@
- dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg353v.dtb
++++ b/arch/arm64/boot/dts/rockchip/Makefile	(date 1749442094090)
+@@ -114,6 +114,7 @@
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg353vs.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg503.dtb
-+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-box-wxy4.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-odroid-m1s.dtb
++dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-onething-oec-box.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-orangepi-3b-v1.1.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-orangepi-3b-v2.1.dtb
+ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-pinenote-v1.1.dtb
 Index: arch/arm64/boot/dts/rockchip/rk3566-onething-oec-box.dts
 IDEA additional info:
 Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
