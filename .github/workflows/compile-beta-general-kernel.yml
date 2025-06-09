@@ -51,18 +51,20 @@ on:
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
-        default: "kernel-config/release/general"
+        default: "kernel-config/release/oec"
         type: choice
         options:
           - kernel-config/release/general
+          - kernel-config/release/oec
           - false
       kernel_patch:
         description: "Set the directory for kernel patches"
         required: false
-        default: "kernel-patch/beta"
+        default: "kernel-patch/oec"
         type: choice
         options:
           - kernel-patch/beta
+          - kernel-patch/oec
           - false
       auto_patch:
         description: "Set whether to use kernel patches"
