@@ -21,9 +21,9 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 ===================================================================
 diff --git a/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts
 new file mode 100644
---- /dev/null	(date 1749884666697)
-+++ b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts	(date 1749884666697)
-@@ -0,0 +1,455 @@
+--- /dev/null	(date 1749884886365)
++++ b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts	(date 1749884886365)
+@@ -0,0 +1,454 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +
 +/*
@@ -51,7 +51,6 @@ new file mode 100644
 +		ethernet0 = &gmac1;
 +		mmc0 = &sdhci;
 +		mmc1 = &sdmmc0;
-+		mmc2 = &sdmmc1;
 +		sata2 = &sata2;
 +	};
 +
