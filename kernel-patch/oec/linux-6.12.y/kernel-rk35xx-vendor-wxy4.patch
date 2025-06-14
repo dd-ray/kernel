@@ -4,9 +4,9 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/arch/arm64/boot/dts/rockchip/Makefile b/arch/arm64/boot/dts/rockchip/Makefile
---- a/arch/arm64/boot/dts/rockchip/Makefile	(revision b00d3506da4a4b818cbb25ec28e0039531a28aa9)
-+++ b/arch/arm64/boot/dts/rockchip/Makefile	(date 1749442094090)
-@@ -114,6 +114,7 @@
+--- a/arch/arm64/boot/dts/rockchip/Makefile	(revision a2cd6d4ee13e8b5c81aaf2bfa6c8f819807acef8)
++++ b/arch/arm64/boot/dts/rockchip/Makefile	(date 1749884666690)
+@@ -122,6 +122,7 @@
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg353vs.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-anbernic-rg503.dtb
  dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-odroid-m1s.dtb
@@ -21,9 +21,9 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 ===================================================================
 diff --git a/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts
 new file mode 100644
---- /dev/null	(date 1749439679772)
-+++ b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts	(date 1749439679772)
-@@ -0,0 +1,454 @@
+--- /dev/null	(date 1749884666697)
++++ b/arch/arm64/boot/dts/rockchip/rk3566-box-wxy4.dts	(date 1749884666697)
+@@ -0,0 +1,455 @@
 +// SPDX-License-Identifier: (GPL-2.0+ OR MIT)
 +
 +/*
@@ -52,6 +52,7 @@ new file mode 100644
 +		mmc0 = &sdhci;
 +		mmc1 = &sdmmc0;
 +		mmc2 = &sdmmc1;
++		sata2 = &sata2;
 +	};
 +
 +	/delete-node/ display-subsystem;
